@@ -1,6 +1,6 @@
 function main()
  
-  WordFileName='lalalala.doc'; 
+  WordFileName='test_1.doc'; 
    CurDir=pwd;
    FileSpec = fullfile(CurDir,WordFileName);
    [ActXWord,WordHandle]=StartWord(FileSpec); 
