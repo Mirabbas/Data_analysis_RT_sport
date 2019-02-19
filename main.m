@@ -1,6 +1,6 @@
 function main()
  
-  WordFileName='lalalala.doc'; 
+  WordFileName='test_1.doc'; 
    CurDir=pwd;
    FileSpec = fullfile(CurDir,WordFileName);
    [ActXWord,WordHandle]=StartWord(FileSpec); 
@@ -10,8 +10,8 @@ hold on
 plot(res_l);
 plot(result,'r');
 hold off
-title('Надув');
-xlabel('сек');ylabel('код');
+title('inflating');
+xlabel('sec');ylabel('code');
 FigureIntoWord(ActXWord); 
     
 CloseWord(ActXWord,WordHandle,FileSpec);
